@@ -231,3 +231,84 @@ header{
 .social-media i:hover{
     background-color: #f86300;
 }
+
+.conhecimentos{
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(6, 6rem);
+    row-gap: .5rem;
+}
+
+.conhecimento:nth-child(1){
+    grid-column: 4 / 8;
+    grid-row: 1 / 3;
+}
+
+.conhecimento:nth-child(2){
+    grid-column: 4 / 8;
+    grid-row: 3 / 5;
+}
+
+.conhecimento:nth-child(3){
+    grid-column: 4 / 8;
+    grid-row: 5 / -1;
+}
+
+.conhecimento:nth-child(4){
+    grid-column: 10 / 14;
+    grid-row: 1 / 3;
+}
+
+.conhecimento:nth-child(5){
+    grid-column: 10 / 15;
+    grid-row: 3 / 5;
+}
+
+.conhecimento:nth-child(6){
+    grid-column: 10 / 14;
+    grid-row: 5 / -1;
+}
+
+.sessao-conhecimentos{
+    background: #ADA996;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.sessao-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sessao-header h1{
+    font-family: var(--font-primary);
+    font-size: 3.3rem;
+    color: #363636;
+    border-bottom: solid 3px #f86300;
+    margin-bottom: 1.5rem;
+}
+
+.conhecimento-header{
+    display: flex;
+    align-items: center;
+    color: #f86300;
+}
+
+.conhecimento-header i{
+    font-size: 2.5rem;
+}
+
+.conhecimento-header h3{
+    font-family: var(--font-secundary);
+    font-size: 2rem;
+    padding-left: 1rem;
+    color: #363636;
+}
+
+.conhecimento-text{
+    font-family: var(--font-secundary);
+    margin-top: 1rem;
+    color: #000000;
+}
