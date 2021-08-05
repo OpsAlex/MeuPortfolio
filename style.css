@@ -9,6 +9,10 @@
     text-decoration: none;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 :root{
     --font-primary: "Baloo Da 2", serif;
     --font-secundary: "Josefin Slab", serif;
@@ -105,7 +109,6 @@ header{
     }
 }
 
-
 .meumenu{
     width: 2rem;
     height: 2rem;
@@ -178,6 +181,7 @@ header{
     top: 0;
     right: -20rem;
     transition: all 1s;
+    z-index: 80;
 }
 
 .show-menu .sidebar{
@@ -528,4 +532,57 @@ header{
   
   .preenchido{
       pointer-events: none;
+  }
+
+
+  footer{
+    width: 100%;
+    height: 7rem;
+    background-color: #17181b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-content{
+    width: 60%;
+    
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-content p{
+    font-family: var(--font-secundary);
+    color: #a7a7a7;
+    font-size: 1.2rem;
+  }
+
+  .footer-content a{
+    color: #d65601;
+  }
+  
+  .social-list a{
+    margin: 0 2rem;
+    color: #a7a7a7;
+    font-size: 1.3rem;
+  }
+  
+  .social-list ul {
+    display: flex;
+  }
+  
+  #link-topo{
+    position: fixed;
+    right: 3rem;
+    bottom: 3rem;
+    width: 3rem;
+    height: 3rem;
+    background: #c02425; 
+    background: -webkit-linear-gradient(to right, #c02425, #f0cb35); 
+    background: linear-gradient(to right, #c02425, #f0cb35); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: .3rem;
+    box-shadow:  0 0.1rem 0.6rem #00000009;
   }
