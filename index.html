@@ -24,9 +24,10 @@
                     <img src="imagens/bg.jpg" alt="">
                 </div>
                 <div class="banner">
-                    <h1>Programador & Front/Back End </h1>
+                    <h1>Programador & Full-Stack </h1>
                     <p>Alex Bezerra de Sousa</p>
-                    <button>Saiba mais</button>
+                    <a href="https://www.linkedin.com/in/alex-bezerra-72b97192/">
+                    <img src="imagens/alex.jpg" alt="Alex Bezerra" /></a>
                 </div>
             </header>
             <aside class="sidebar">
@@ -36,7 +37,6 @@
                     <li class="menu-item"><a href="#projetos" class="menu-link">Projetos</a></li>
                     <li class="menu-item"><a href="#conhecimentos" class="menu-link">Conhecimentos</a></li>
                     <li class="menu-item"><a href="#contato" class="menu-link">Contato</a></li>
-                    <li class="menu-item"><a href="#orcamento" class="menu-link">Orçamento</a></li>
                   </ul>
                 </nav>
                 <div class="social-media">
@@ -57,10 +57,10 @@
                     <img src="imagens/projeto1.jpg" alt="imagem do projeto ToDo" />
                   </div>
                   <div class="card-info">
-                    <h2>ToDo List</h2>
-                    <h3>Javascript</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ducimus vero maxime amet magnam doloribus eos consequatur expedita architecto hic?</p>
-                    <button class="btn">Saiba Mais</button>
+                    <h2>Movies</h2>
+                    <h3>Java & React</h3>
+                    <p>Sistema desenvolvido em Java utilizando Spring Boot no BackEnd com JavaScript utilizando o framework React no FrontEnd </p>
+                    <a href="https://opsalexmovie.netlify.app/"><button class="btn">Saiba Mais</button></a>
                   </div>
                 </div>
                 <div class="card">
@@ -74,6 +74,19 @@
                     <button class="btn">Saiba Mais</button>
                   </div>
                 </div>
+
+                <div class="card">
+                  <div class="card-img-wrapper">
+                    <img src="imagens/projeto4.jpg" alt="imagem do projeto Maratona" />
+                  </div>
+                  <div class="card-info">
+                    <h2>AppLanches</h2>
+                  <h3>.NET C# & SQLServer</h3>
+                  <p>Este sistema consiste em exibir Produtos de uma loja virtual de Lanches, com tambem a tela administrativa. Desenvolvido utilizando o modelo MVC em ASP .NET Core...  </p>
+                  <button class="btn">Saiba Mais</button>
+                  </div>
+                </div>
+                
                 <div class="card">
                   <div class="card-img-wrapper">
                     <img src="imagens/projeto3.jpg" alt="imagem do projeto Casa Bela" />
@@ -106,8 +119,8 @@
                 </div>
                 <div class="conhecimento">
                   <div class="conhecimento-header">
-                    <i class="fas fa-database"></i>
-                    <h3>MySQL & SQL</h3>
+                    <i class="fab fa-js"></i>
+                    <h3>JavaScript</h3>
                   </div>
                   <div class="conhecimento-text">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore pariatur asperiores incidunt quod, sed aspernatur eos commodi ex nostrum consequuntur aut vero cum illum perferendis earum, eveniet hic itaque. Quod.</p>
@@ -115,8 +128,8 @@
                 </div>
                 <div class="conhecimento">
                   <div class="conhecimento-header">
-                    <i class="fab fa-github"></i>
-                    <h3>Git e GitHub</h3>
+                    <i class="fas fa-database"></i>
+                    <h3>MySQL & SQL</h3>
                   </div>
                   <div class="conhecimento-text">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ex eius voluptatem deleniti alias commodi doloremque aspernatur id adipisci quia ea, distinctio maxime, at nemo. Officiis suscipit excepturi quia aut?</p>
@@ -124,8 +137,8 @@
                 </div>
                 <div class="conhecimento">
                   <div class="conhecimento-header">
-                    <i class="fab fa-js"></i>
-                    <h3>Javascript</h3>
+                    <i class="fab fa-java"></i>
+                    <h3>Java</h3>
                   </div>
                   <div class="conhecimento-text">
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quas facere alias, reprehenderit ullam quibusdam itaque dolor nulla odio inventore culpa molestiae porro ea ad illo, quos dicta ratione quisquam?
@@ -152,7 +165,28 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet facilis distinctio quaerat eaque ratione, molestias incidunt a iusto, unde quos magnam ullam exercitationem velit alias, fuga in explicabo ex laborum!</p>
                   </div>
                 </div>
+                <div class="conhecimento">
+                  <div class="conhecimento-header">
+                    <i class="fab fa-github"></i>
+                    <h3>Git e GitHub</h3>
+                  </div>
+                  <div class="conhecimento-text">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quas facere alias, reprehenderit ullam quibusdam itaque dolor nulla odio inventore culpa molestiae porro ea ad illo, quos dicta ratione quisquam?
+                    </p>
+                  </div>
+                </div>
+                <div class="conhecimento">
+                  <div class="conhecimento-header">
+                    <i class="fab fa-angular"></i>
+                    <h3>Angular</h3>
+                  </div>
+                  <div class="conhecimento-text">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quas facere alias, reprehenderit ullam quibusdam itaque dolor nulla odio inventore culpa molestiae porro ea ad illo, quos dicta ratione quisquam?
+                    </p>
+                  </div>
+                </div>
               </div>
+              
             </section>
 
 
@@ -161,25 +195,28 @@
                 <div class="contato-left"></div>
                 <div class="contato-right">
                   <h1>Contato</h1>
-                  <form>
+                  <form action="https://formsubmit.co/alexbezerra50@hotmail.com"
+                  method="POST"
+                  class="form">
                     <div class="input-group">
-                      <input type="text" class="field" id="nome">
-                      <label for="nome" class="field-label">Nome</label>
+                      <input type="text" class="field" id="name" name="name" required> 
+                      <label for="name" class="field-label">Nome</label>
                     </div>
                     <div class="input-group">
-                      <input type="text" class="field" id="email">
+                      <input type="text" class="field" id="email" name="email" required>
                       <label for="email" class="field-label">E-mail</label>
                     </div>
                     <div class="input-group">
-                      <textarea class="field" id="mensagem"></textarea>
-                      <label for="mensagem" class="field-label">Mensagem</label>
+                      <textarea class="field" id="message" name="message"></textarea>
+                      <label for="message" class="field-label">Mensagem</label>
                     </div>
+                    <input type="hidden" name="_next" value="index.html"/>
                     <button type="submit" class="btn btn-submit">Enviar</button>
                   </form>
                 </div>
               </div>
             </section>
-
+            
             <footer>
               <div class="footer-content">
                 <p>
@@ -202,4 +239,5 @@
     
       </body>
       <script src="script.js"></script>
+      <script src="src/sendEmail.js"></script>
 </html>
